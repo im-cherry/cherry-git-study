@@ -2,9 +2,10 @@
 
 커밋 메시지 템플릿
 
-## 1. 템플릿 파일 생성하기
+<br />
+<br />
 
-- .gitmessage.txt
+## 1. 템플릿 파일(.gitmessage.txt) 생성하기
 
 ```text
 # <타입> : <제목>
@@ -35,10 +36,19 @@
 # ------------------
 ```
 
+<br />
+<br />
+
+
 ## 2. 템플릿 설정하기
 
 ```bash
 $ git config --global commit.template .gitmessage.txt
 ```
 
-_참조 사이트 : https://velog.io/@bky373/Git-%EC%BB%A4%EB%B0%8B-%EB%A9%94%EC%8B%9C%EC%A7%80-%ED%85%9C%ED%94%8C%EB%A6%BF_
+<br />
+<br />
+
+## Reference
+- https://chanhuiseok.github.io/posts/git-4/_
+- https://velog.io/@bky373/Git-커밋-메시지-템플릿
